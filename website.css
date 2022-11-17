@@ -1,0 +1,418 @@
+table, th, td {
+  border: 1px solid;
+}
+
+#circle {
+  height:20vw;
+  width: 20vw;
+  margin-top: 5%;
+  margin-left: 40%;
+  background: #d6d6d6;
+  transition: box-shadow .5s, color .5s, border .5s;
+  background-size: 0 0;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  box-shadow: 9px 9px 18px #ababab,
+                 -9px -9px 18px #ffffff;
+  /* center items inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Downbtn{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 1vw 1vw;
+  cursor: pointer;
+  font-size: 1vw;
+  border-radius: 1vw;
+}
+
+.center {
+  margin-left: 30%;
+}
+
+.project-image{
+  width: 40%;
+  margin-bottom: 1vw;
+}
+
+#circle:hover {
+  box-shadow: inset 27px 27px 53px #b5b5b5,
+  inset -27px -27px 53px #ffffff;
+}
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+#text {
+  display: inline-block;
+  color: black;
+  border-right: 3px solid black;
+}
+
+.subtitle{
+  font-family:sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.name{
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#container {
+	margin: 50px 0 0 0;
+	text-align: center;
+  height: 2%;
+  margin-bottom: 3vw;
+}
+
+body {
+  background-color: #d6d6d6;
+}
+
+.links{
+  padding:1vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2vw;
+  background: #d6d6d6;
+  box-shadow:  6px 6px 13px #ababab,
+               -6px -6px 13px #ffffff;
+  height:9vw;
+}
+
+
+
+#Logo{
+    font-size: 5vw;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+#discriptionText{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1vw;
+  margin-top: -0.0000001vw;
+}
+
+
+.infoBlock{
+  border-radius: 2vw;
+  width: 12%;
+  background: #d6d6d6;
+  background-size: 700% 100%;
+  box-shadow:  5px 5px 10px #b6b6b6,
+             -5px -5px 10px #f6f6f6;
+  height:8.5vw;
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin-left: 6.5%;
+}
+
+.infoBlock:hover{
+  box-shadow: inset 14px 14px 27px #b5b5b5,
+  inset -14px -14px 27px #ffffff;
+}
+
+.copyright {
+  font-family:sans-serif;
+  width: 100%;
+  color: grey;
+  line-height: 40px;
+  font-size: 0.8em;
+  text-align: center;
+  bottom:0;
+}
+
+.subtitle-underline{
+  height: 1vw;
+  width: 10vw;
+  margin-left: 4%;
+  background: #e0e0e0;
+  border-radius: 2vw;
+  box-shadow:  5px 5px 10px #949494,
+             -5px -5px 10px #ffffff;
+}
+
+.Large-project-box{
+  margin-left: 5%;
+  margin-right: 5%;
+  height:17vw;
+  border-radius: 2vw;
+  background: #d6d6d6;
+  box-shadow:  7px 7px 14px #a1a1a1,
+               -7px -7px 14px #ffffff;
+  height: auto;
+}
+
+.organization-name{
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.subContainer{
+/* center content */
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7vw;
+/* fit content */
+flex-wrap: wrap;
+
+}
+
+.subProjectBox{
+  height: 16vw;
+  width: 16vw;
+  border-radius: 2vw;
+  margin-bottom: 4vw;
+  background: #d6d6d6;
+  box-shadow:  5px 5px 10px #a1a1a1,
+               -5px -5px 10px #ffffff;
+  overflow: auto;
+}
+
+.subProjectBox:hover{
+  border-radius: 2vw;
+  background: #d6d6d6;
+  box-shadow: inset 5px 5px 10px #a1a1a1,
+              inset -5px -5px 10px #ffffff;
+}
+
+.projectName{
+  font-family: sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-left: 8%;
+}
+
+.quote-of-the-day{
+  font-family: sans-serif;
+  font-size: 0.8vw;
+  font-weight: bold;
+  width:98vw;
+  height: 3vw;
+  margin-top: 0%;
+}
+
+#DarkQuote{
+  display: none;
+}
+
+.appIcon{
+  width: 7vw;
+  height: auto;
+  /* center image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.LearnMore{
+  font-family: sans-serif;
+  font-size: 0.7vw;
+  margin-left: 5%;
+  color:cornflowerblue;
+}
+
+.Description{
+  font-family: sans-serif;
+  font-size: 0.9vw;
+  margin-left: 5%;
+}
+
+.openStatus{
+  font-family: sans-serif;
+  font-size: 1.2vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* center text */
+  text-align: center;
+  text-decoration: none;
+  color:black;
+}
+
+#Walteromtyaemail{
+  color: black;
+}
+
+@media screen and (max-width: 1100px) {
+  .infoBlock{
+    width: 30%;
+    height: 10vw;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+  .infoBlock:hover{
+    box-shadow: inset 14px 14px 27px #b5b5b5,
+    inset -14px -14px 27px #ffffff;
+  }
+  .subtitle{
+    font-size: 2vw;
+  }
+  .name{
+    font-size: 3vw;
+  }
+  #discriptionText{
+    font-size: 2vw;
+    
+  }
+  #Logo{
+    font-size: 5vw;
+    margin-left: 37%;
+    margin-top: 5%;
+  }
+  .links{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    overflow: auto;
+    height:auto;
+    padding-left:18%;
+  }
+  .subtitle{
+    font-size: 3vw;
+  }
+
+  .organization-name{
+    font-size: 2.5vw;
+  }
+  .projectName{
+    font-size: 2vw;
+  }
+
+  .subProjectBox{
+    height: 30vw;
+    width: 20vw;
+    margin-bottom: 3%;
+  }
+
+  .Description{
+    font-size: 1.7vw;
+  }
+  .LearnMore{
+    font-size: 1.5vw;
+  }
+
+  .openStatus{
+    font-size: 1.5vw;
+  }
+  .quote-of-the-day{
+    width:99vw;
+    height: 10vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #circle {
+    background: #232323;
+    box-shadow:  5px 5px 15px #191919,
+               -5px -5px 15px #2d2d2d;
+  }
+  #circle:hover {
+    box-shadow:  0 0 0 0px;
+    box-shadow: inset 22px 22px 44px #191919,
+    inset -22px -22px 44px #2d2d2d;
+  }
+
+  .name{
+    color: White;
+  }
+
+  #text {
+    color: white;
+    border-right: 3px solid white;
+  }
+  
+  body {
+    background-color: #232323;
+  }
+
+  .links{
+    background: #232323;
+    box-shadow:  5px 5px 15px #191919,
+               -5px -5px 15px #2d2d2d;
+  }
+
+.infoBlock{
+    background: #232323;
+    box-shadow:  5px 5px 15px #191919,
+               -5px -5px 15px #2d2d2d;
+    color: White;
+  }
+
+  .infoBlock:hover{
+    box-shadow: inset 20px 20px 39px #191919,
+    inset -20px -20px 39px #2d2d2d;
+  }
+
+  .subtitle{
+    color:white;
+  }
+
+  .subtitle-underline{
+    background: #232323;
+box-shadow:  9px 9px 18px #0e0e0e,
+             -9px -9px 18px #383838;
+  }
+
+  .Large-project-box{
+    background: #232323;
+    box-shadow:  7px 7px 14px #1a1a1a,
+             -7px -7px 14px #2c2c2c;
+  }
+
+  .organization-name{
+    color: white;
+  }
+
+  .subProjectBox{
+background: #232323;
+box-shadow:  5px 5px 10px #1a1a1a,
+             -5px -5px 10px #2c2c2c;
+  }
+  .subProjectBox:hover{
+    background: #232323;
+    box-shadow: inset 5px 5px 10px #1a1a1a,
+                inset -5px -5px 10px #2c2c2c;
+  }
+
+  .projectName{
+    color: white;
+  }
+
+  .Description{
+    color: white;
+  }
+
+  .openStatus{
+    color: white;
+  }
+
+  #Walteromtyaemail{
+    color: white;
+  }
+
+  #DarkQuote{
+    display: block;
+  }
+
+  #lightQuote{
+    display: none;
+  }
+}
